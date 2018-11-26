@@ -1,3 +1,3 @@
 # java-tutorial
 
-java教程示例
+Java™ 8 教程示例代码
