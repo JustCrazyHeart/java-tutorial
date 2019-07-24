@@ -106,7 +106,8 @@ public class ReductionExamples {
                     e.getValue()
                             .stream()
                             .map(Person::getName)
-                            .forEach(f -> System.out.println(f)); });
+                            .forEach(f -> System.out.println(f));
+                });
 
         // 7. Group names by gender
 
@@ -131,7 +132,8 @@ public class ReductionExamples {
                     System.out.println("Gender: " + e.getKey());
                     e.getValue()
                             .stream()
-                            .forEach(f -> System.out.println(f)); });
+                            .forEach(f -> System.out.println(f));
+                });
 
         // 8. Total age by gender
 
